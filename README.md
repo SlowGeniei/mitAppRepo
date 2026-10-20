@@ -1,2 +1,2 @@
 # MIT Application Project File Repo
-A repo that contains files from the project's I'm submitting in my MIT application.
+A repo that contains files from the projects I'm submitting in my MIT application.
