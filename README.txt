@@ -59,6 +59,8 @@ These source files mark the current state of my NegaMax-powered chess bot. Becau
   Square - A class that defines a chessboard square. It contains many utility functions as well as its resident piece.
 I hope this list will guide your review.
 
+The project directory contains all of the source class files, as well as a text file containing a transcription of a chess game where I ran the bot against itself. It does not contain the entire game, as it quickly devolves into a stalemate from the point I ended with.
+
 
 Weather Station
 
