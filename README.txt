@@ -31,7 +31,7 @@ This project comes in the form of a large (>700line) C file. This file is the la
 Many other utility functions exist, but they are not central to the algorithm.
 I was unsure of the best way to show how the algorithm is actually doing its work. The main explanation is in the PDF attached to the portfolio.
 
-You can run this program by running the pca.exe file that is in the project directory. It must be run in the same folder as a file named "testMatrix.txt." I would recommend compiling the C file yourself in order to avoid any problems arising from different environments. A sample testMatrix.txt file is provided to show the proper input syntax. The program is currently set up to print the eigenvalues and vectors.
+You can run this program by running the pca.exe file that is in the project directory. It must be run in the same folder as a file named "testMatrix.txt." Because of the libraries it requires, I would recommend compiling the C file yourself. A standard Cygwin installation is capable of running this tool. A sample testMatrix.txt file is provided to show the proper input syntax. The program is currently set up to print the eigenvalues and vectors.
 
 
 NegaMax Chess Bot
