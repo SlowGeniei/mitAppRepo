@@ -1,5 +1,5 @@
 MIT Application Project File Repo
-Hello reviewers! This repository contains the source files for my MIT portfolio projects.
+Hello reviewers! This repository contains the source files for my MIT portfolio projects. I recommend that, before you look at this repository, you watch the portfolio video and read the portfolio PDF.
 
 Directories
 
@@ -101,3 +101,5 @@ Before I could make a SolidWorks feature tree that would build a parametrized ge
 I could then reference theses variables when setting dimensions on SolidWorks sketch components or defining distances and/or instances in SolidWorks features. A single hurdle remained: actually generating an involute curve. I managed to do this in a fairly simple way.
 	Because an involute is defined as "the path a string takes as it unwinds from a circle", I could calculate the lengths of arcs from the starting point to different points along the circle. I would then create lines that were tangent to the circle at these points, and set their lengths to the previously calculated arc-length. For example, if point A is 180 degrees from the starting point, then line A would extend half of the circles circumference. Once I had enough lines, I could use their end points to define a curve. This curve is now an involute. In my experiments with overlaying a genuine involute curve over my approximation, I have determined that I only need five guide points to accurately create an involute.
 	After I have this curve, it is simply a matter of extruding, cutting, pasting, and patterning to arrive at the finished product.
+
+The project directory contains the parametrized SolidWorks part. In case the reviewers are unable to open/edit a SolidWorks part, I included several 3D model files that were generated using the part. You can refer to the portfolio video for footage of the generator in action.
