@@ -89,7 +89,9 @@ The internals of my AWT graphics "handler" are actually quite simple. When I des
 
 As I mentioned in the PDF, I used AI to generate Javadoc that would be genuinely useful for the project. All code is 100% written by me.
 
-The project directory contains the complete source files, in the "source" folder, and the example files (in the "examples" folder).
+The project directory contains the complete source files, in the "source" folder, and the example files (in the "examples" folder). As it is a utility program, there is no easy way to "run" the program. The examples, I believe, well showcase the capability of the tool. Unfortunately, I limited myself to a single file for each example, leading to computation code being lumped into the PaintLogic method. This is obviously not the intended use of the interface class, but it is functional.
+
+AWTGH is featured much better in its own repository (also under this account). If you are interested in this project in particular, I recommend that you check it out.
 
 
 Involute Gear Generator
