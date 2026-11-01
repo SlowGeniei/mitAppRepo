@@ -104,7 +104,7 @@ double** translateInputMatrix (FILE *file, int data_entries, int data_attributes
 					}
 					strNumber[strNumberCounter + 1] = '\0';
 					matrix[row][col] = atof(strNumber);
-					for (int i = 0; i < strNumberCounter; i++) strNumber[i] = "";
+					for (int i = 0; i < strNumberCounter; i++) strNumber[i] = *"";
 					strNumberCounter = 0;
 					//printMatrix(matrix, data_entries, data_attributes);
 					col++;
