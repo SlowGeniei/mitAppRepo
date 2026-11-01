@@ -1,0 +1,31 @@
+ 1. N(b1)-c3   N(g8)-f6
+ 2. P(e2)-e3   P(d7)-d6
+ 3. B(f1)-b5+  B(c8)-d7
+ 4. N(g1)-f3   B(d7)-c6
+ 5. P(d2)-d4   N(b8)-d7
+ 6. B(b5)xc6   P(b7)xc6
+ 7. B(c1)-d2   R(a8)-b8
+ 8. P(b2)-b3   P(c6)-c5
+ 9. O-O        P(e7)-e6
+10. Q(d1)-e2   B(f8)-e7
+11. Q(e2)-d3   O-O
+12. R(a1)-d1   R(f8)-e8
+13. R(f1)-e1   P(h7)-h6
+14. P(a2)-a3   Q(d8)-c8
+15. P(e3)-e4   Q(c8)-b7
+16. B(d2)-e3   N(f6)-g4
+17. P(d4)xc5   N(d7)xc5
+18. B(e3)xc5   N(g4)xh2
+19. B(c5)-d4   P(e6)-e5
+20. K(g1)xh2   P(e5)xd4
+21. N(f3)xd4   B(e7)-f6
+22. N(d4)-f3   B(f6)-e5+
+23. K(h2)-g1   Q(b7)-c6
+24. N(c3)-d5   B(e5)-b2
+25. Q(d3)-c4   Q(c6)xc4
+26. P(b3)xc4   R(b8)-c8
+27. P(a3)-a4   B(b2)-a3
+28. P(a4)-a5   B(a3)-c5
+29. P(g2)-g4   P(a7)-a6
+30. R(d1)-b1   P(c7)-c6
+31. N(d5)-f4   R(c8)-b8
