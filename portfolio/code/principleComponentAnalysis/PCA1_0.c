@@ -686,7 +686,7 @@ double **calculateEigenVectors (double **originalCovarianceMatrix, int size, dou
 }
 
 //Verified
-void **multiplyMatrices (double **matrix1, int matrix1Rows, int matrix1Cols, double **matrix2, int matrix2Rows, int matrix2Cols) {
+double **multiplyMatrices (double **matrix1, int matrix1Rows, int matrix1Cols, double **matrix2, int matrix2Rows, int matrix2Cols) {
 
 	if (matrix1Cols != matrix2Rows || matrix1Rows != matrix2Cols) {
 		printf("Invalid passed matrices. Cannot multipy.\n");
