@@ -30,6 +30,7 @@ This project comes in the form of a large (>700line) C file. This file is the la
   calculateEigenVectors(..) - calculates the eigenvectors based on the eigenvalues
 Many other utility functions exist, but they are not central to the algorithm.
 I was unsure of the best way to show how the algorithm is actually doing its work. The main explanation is in the PDF attached to the portfolio.
+As a side note, I chose to sample the graph (instead of something like power iteration) because of its simplicity. Also, if I scale certain aspects of the graph generation limits as the data-set sizes increase, I have found that it performs quite well.
 
 You can run this program by running the pca.exe file that is in the project directory. It must be run in the same folder as a file named "testMatrix.txt." Because of the libraries it requires, I would recommend compiling the C file yourself. A standard Cygwin installation is capable of running this tool. A sample testMatrix.txt file is provided to show the proper input syntax. The program is currently set up to print the eigenvalues and vectors.
 
@@ -40,7 +41,7 @@ These source files mark the current state of my NegaMax-powered chess bot. Becau
   Piece - An abstract parent class, Piece contains utility functions that define the movement, capturing, and scoring logic for any chess piece.
   Bishop - A child of Piece, Bishop contains the movement, capturing, and scoring logic of a bishop chess piece.
   King - A child of Piece, King contains the movement, capturing, and scoring logic of a king chess piece.
-  Knight - A child of Piece, Knight contains the movement, capturing, and scoring logic of a king chess piece.
+  Knight - A child of Piece, Knight contains the movement, capturing, and scoring logic of a knight chess piece.
   Pawn - A child of Piece, Pawn contains the movement, capturing, scoring, and promotion logic of a player's pawn pieces.
   Queen - A child of Piece, Queen contains the movement, capturing, and scoring of a player's Queen pieces.
   Rook - A child of Piece, Rook defines the capturing, movement, and scoring of a player's rooks.
