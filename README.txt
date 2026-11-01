@@ -76,6 +76,8 @@ The weather station's design process has been comprised of a cycle of initial de
 I can see that the "collaboration" section of the PDF could raise some eyebrows. As you know from the PDF, a man named Giovanni inspired the weather station with his "instructibles" article (linked in the PDF). Because of this, in the portfolio document, I give Giovanni a 15% "stake" in my project. Since it may seem like my mentor and I were simply following a tutorial, I will now give more collaboration details.
 	There are two main parts of the weather station. The 3D-printed structure and the electrical/sensory system. In my weather station, the electrical system's design and implementation are 100% my own. Some 3D models were originally sourced from Giovanni, but every single one had to be re-designed in order to iron out some strange modeling artifacts. In some cases, there were necessary 3D models that were simply missing, which I then designed myself. Because of these two facts, I did not give Giovanni a huge amount of credit for the models. I believe it is fair to say that Giovanni contributed 15% of the project.
 
+The project directory contains two example 3D files: the base for the weather vane, and the hollowed-hemisphere arm for the anemometer. I believe that these files showcase the complexity and breadth of coverage for the modeling that I have done for the project.
+
 
 AWTGH
 
