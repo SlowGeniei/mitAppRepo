@@ -4,14 +4,13 @@ Hello reviewers! This repository contains the source files for my MIT portfolio 
 Directories
 
 All the relevant files lie inside the portfolio folder.
-The source for the Principle Component Analysis project lies at "portfolio/code/PCA1_0.c"
-The source for the NegaMax Chess Bot project lies at "portfolio/code/chessBot/*"
-The source files for the Weather Station project lie at "portfolio/SolidWorks/anemometer_cup.STL" & "portfolio/SolidWorks/windVane_base_ours.STL"
-The source file for the the Involute Gear Generator lies at "portfolio/SolidWorks/VariableizedInvoluteGear.SLDPRT"
+Source files for Principle Component Analysis are in "portfolio/code/principleComopnentAnalysis/"
+Source files for Negamax Chess Bot are in "portfolio/code/chessBot/"
+Source files for Weather Station are in "portfolio/SolidWorks/weatherStation/"
+Source files for AWT Graphics Handler are in "portfolio/code/AWTGH/"
+Source files for Involute Gear Generator are in "portfolio/SolidWorks/involuteGearGenerator/"
 
-ADD JAVA AWT STUFF
-
-The rest of the ReadMe file will contain information on how to use and edit the project files.
+The rest of the readme file contains technical information pertaining to the implementation of each project.
 
 
 Principle Component Analysis
