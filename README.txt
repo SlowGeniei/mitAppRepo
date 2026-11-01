@@ -89,6 +89,8 @@ The internals of my AWT graphics "handler" are actually quite simple. When I des
 
 As I mentioned in the PDF, I used AI to generate Javadoc that would be genuinely useful for the project. All code is 100% written by me.
 
+The project directory contains the complete source files, in the "source" folder, and the example files (in the "examples" folder).
+
 
 Involute Gear Generator
 
