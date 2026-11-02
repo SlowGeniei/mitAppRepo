@@ -15,7 +15,7 @@ The rest of the readme file contains technical information pertaining to the imp
 
 Principle Component Analysis
 
-This project comes in the form of a large (>700line) C file. This file is the latest version of my PCA algorithm. In my experience, the best way to navigate the file is to start at the bottom in the "main" function. As the "main" function is the director of the workflow, it is possible to intuit the locations of certain logical functions based on their position in "main." In case this is not enough, the below list contains the major functions listed in top-to-bottom order (as they exist in the file).
+This project comes in the form of a large (>700line) C file. This file is the latest version of my PCA algorithm. In my experience, the best way to navigate the file is to start at the bottom in the "main" function. As the "main" function is the director of the workflow, it is possible to intuit the locations of certain logical functions based on their position. In case this is not enough, the below list contains the major functions listed in top-to-bottom order (as they exist in the file).
   findMatrixColumnMeans(..) - calculates the mean value of each column
   calculateZeroMeanedMatrix(..) - zeros the matrix around its origin
   calculateCovarianceMatrix(..) - calculates the covariance matrix of the provided dataset
@@ -31,6 +31,8 @@ This project comes in the form of a large (>700line) C file. This file is the la
 Many other utility functions exist, but they are not central to the algorithm.
 I was unsure of the best way to show how the algorithm is actually doing its work. The main explanation is in the PDF attached to the portfolio.
 As a side note, I chose to sample the graph (instead of something like power iteration) because of its simplicity. Also, if I scale certain aspects of the graph generation limits as the data-set sizes increase, I have found that it performs quite well.
+
+The program is currently only complete up to eigenvector and value calculation.
 
 You can run this program by running the pca.exe file that is in the project directory. It must be run in the same folder as a file named "testMatrix.txt." Because of the libraries it requires, I would recommend compiling the C file yourself. A standard Cygwin installation is capable of running this tool. A sample testMatrix.txt file is provided to show the proper input syntax. The program is currently set up to print the eigenvalues and vectors.
 
